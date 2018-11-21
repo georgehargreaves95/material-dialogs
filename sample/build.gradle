@@ -23,8 +23,6 @@ android {
 dependencies {
   implementation project(':core')
   implementation project(':input')
-  implementation project(':files')
-  implementation project(':color')
 
   implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:' + versions.kotlin
 
@@ -33,7 +31,6 @@ dependencies {
   implementation 'androidx.recyclerview:recyclerview:' + versions.androidx
   implementation 'com.google.android.material:material:' + versions.androidx
 
-  implementation 'com.afollestad:assent:' + versions.assent
 }
 
 apply from: '../spotless.gradle'
